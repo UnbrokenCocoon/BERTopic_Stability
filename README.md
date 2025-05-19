@@ -54,7 +54,8 @@ This sweet spot was derived using a quadratic fit. Models beyond this range ofte
 ## 📉 Example Outputs
 
 ### 🔹 Distribution of Error Size
-![Error Size Distribution](output/error_size_distribution.png)
+![Error Size Distribution](https://raw.githubusercontent.com/UnbrokenCocoon/BERTopic_Stability/main/output/error_size_distribution.png)
+
 
 > Shows the distribution of `Error_Size` across 211 model runs. Most cluster between 50,000–55,000.
 
