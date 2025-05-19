@@ -1,0 +1,535 @@
+Topic,Raw Count,Appearance Percentage
+ boot shoe boot shoe leather,29,72.5
+ text image extracted text image,24,60.0
+ miners coal mining mines,12,30.0
+ food land agricultural prices,10,25.0
+ houses housing building house,9,22.5
+ women womens girls womens branch,9,22.5
+ tuberculosis health treatment medical,8,20.0
+ women womens girls men,7,17.5
+ trade bad trade bad month,6,15.0
+ trade bad trade bad quiet,6,15.0
+ shoe boot boot shoe leather,6,15.0
+ conference resolution council delegates,6,15.0
+ tuberculosis health treatment disease,6,15.0
+ health tuberculosis treatment medical,5,12.5
+ education teachers educational schools,5,12.5
+ food agricultural land prices,5,12.5
+ union labour unions trade,5,12.5
+ houses housing building rent,5,12.5
+ tuberculosis health treatment minister health,4,10.0
+ death sympathy bleakley mr,4,10.0
+ cent increase year decrease,4,10.0
+ cent increase pairs year,4,10.0
+ cost living living cost cent,4,10.0
+ russia league russian nations,4,10.0
+ union labour unions employers,4,10.0
+ russia russian german germany,3,7.5
+ war government policy russia,3,7.5
+ tuberculosis health treatment ministry health,3,7.5
+ cent increase year pairs,3,7.5
+ daily herald daily herald herald daily,3,7.5
+ houses housing land agricultural,3,7.5
+ mr leicester street london,3,7.5
+ herald daily daily herald paper,3,7.5
+ women girls men womens,3,7.5
+ mr hm smith richards,3,7.5
+ holiday insurance superannuation pensions,3,7.5
+ mr hm smith poulton,3,7.5
+ trade improvement bad trade bad,3,7.5
+ women womens girls leicester womens,3,7.5
+ houses housing house building,3,7.5
+ report reports inspectors inspection,3,7.5
+ education teachers educational school,3,7.5
+ cent increase year compared,3,7.5
+ hm dead females mr,3,7.5
+ rule delete line rule line,3,7.5
+ branch branches returns central office,3,7.5
+ arbitration strike defendant suspension,3,7.5
+ education educational teachers school,2,5.0
+ league russia nations league nations,2,5.0
+ mr poulton commons house commons,2,5.0
+ miners coal agricultural land,2,5.0
+ insurance fund superannuation pensions,2,5.0
+ government policy movement war,2,5.0
+ trade trade board board rates,2,5.0
+ street leicester road london,2,5.0
+ arbitration defendant court suspension,2,5.0
+ rates cost living prices cost,2,5.0
+ scheme statements errors creep errors,2,5.0
+ education educational teachers schools,2,5.0
+ unemployment employers employment wages,2,5.0
+ trade trade board bad board,2,5.0
+ union labour trade workers,2,5.0
+ insurance superannuation pensions compensation,2,5.0
+ union unions trade labour,2,5.0
+ houses housing room rent,2,5.0
+ women girls womens men,2,5.0
+ trade bad trade bad plymouth,2,5.0
+ daily herald daily herald report,2,5.0
+ hm dead females tf,2,5.0
+ hours holiday hour holidays,2,5.0
+ firm manufacturers firms shop,2,5.0
+ conference resolution council committee,2,5.0
+ women womens leicester girls,2,5.0
+ arbitration strike defendant case,2,5.0
+ women womens men girls,2,5.0
+ cent increase year figures,2,5.0
+ education teachers school schools,2,5.0
+ houses housing rent room,2,5.0
+ arbitration strike defendant court,2,5.0
+ street london road kettering,2,5.0
+ members branch branches secretary,2,5.0
+ hm mr dead death,2,5.0
+ conference party labour council,2,5.0
+ cost living cost living rates,2,5.0
+ arbitration defendant suspension suspended,2,5.0
+ war government policy movement,2,5.0
+ street london leicester road,2,5.0
+ party labour labour party house,2,5.0
+ boot shoe boot shoe shoe operatives,2,5.0
+ branch branches secretary general,2,5.0
+ firm manufacturers firms operative,2,5.0
+ houses land housing rent,2,5.0
+ cent year increase improvement,2,5.0
+ tuberculosis treatment disease doctor,2,5.0
+ report reports inspectors reports exclusively,2,5.0
+ operatives short time short time,2,5.0
+ league nations league nations russia,2,5.0
+ firm firms manufacturers trade board,2,5.0
+ holiday hours week hour,2,5.0
+ street road london metro,2,5.0
+ union unions labour trade,2,5.0
+ holiday insurance fund superannuation,2,5.0
+ trade employment bad trade board,2,5.0
+ war russia nations league,1,2.5
+ men movement hope future,1,2.5
+ insurance fund benefit unemployment,1,2.5
+ union unions employers trade,1,2.5
+ members membership jubilee happy,1,2.5
+ hours hour day hour day,1,2.5
+ members meeting membership meetings,1,2.5
+ war men peace rely,1,2.5
+ fund funds arrears dividend,1,2.5
+ trade firm prices trade board,1,2.5
+ war members peace membership,1,2.5
+ members operatives membership suspended,1,2.5
+ party labour labour party government,1,2.5
+ agreement convention scheme settlement,1,2.5
+ miners industry coal mining,1,2.5
+ health tuberculosis treatment disease,1,2.5
+ trade trade board board trade boards,1,2.5
+ arbitration defendant court defendants,1,2.5
+ holiday hours week holidays,1,2.5
+ work said good thanks,1,2.5
+ labour union unemployment shoe,1,2.5
+ mr street leicester london,1,2.5
+ firm manufacturers firms industry,1,2.5
+ mr street leicester smith,1,2.5
+ trade employment improvement bad,1,2.5
+ holiday holidays th holiday scheme,1,2.5
+ houses housing rent house,1,2.5
+ russia russian germany geneva,1,2.5
+ members stamp stamped membership,1,2.5
+ conference party labour branch,1,2.5
+ union women labour trade,1,2.5
+ mr leicester london street,1,2.5
+ wages rates minimum cost living,1,2.5
+ unemployment insurance employment unemployed,1,2.5
+ men men rely position rely,1,2.5
+ movement land agricultural communists,1,2.5
+ defendant court umpire stoppage,1,2.5
+ labour conference party mr,1,2.5
+ branch operatives secretary branches,1,2.5
+ street leicester london mr,1,2.5
+ prices food firm manufacturers,1,2.5
+ conference council resolution committee,1,2.5
+ returns insurance benefit superannuation,1,2.5
+ government policy men rely war,1,2.5
+ trade trade board board food,1,2.5
+ death sympathy widow died,1,2.5
+ holiday month holidays th,1,2.5
+ operatives seamen war orders,1,2.5
+ cost living living cost rates,1,2.5
+ britain great britain ireland countries,1,2.5
+ conference branch council arbitration,1,2.5
+ unemployment employers insurance wages,1,2.5
+ union unemployment employers workers,1,2.5
+ branch operatives members branches,1,2.5
+ houses housing district building,1,2.5
+ street road leicester norwich,1,2.5
+ cent increase cost living year,1,2.5
+ hours week hour day,1,2.5
+ insurance health health insurance national health,1,2.5
+ remain fraternally fraternally president general president,1,2.5
+ labour union unemployment trade,1,2.5
+ council committee conference chairman,1,2.5
+ insurance rates fund pensions,1,2.5
+ trade bad state trade goods,1,2.5
+ war russia russian german,1,2.5
+ holiday insurance superannuation scheme,1,2.5
+ land agricultural emigration food,1,2.5
+ man work branch said,1,2.5
+ branch branches stamp central office,1,2.5
+ union labour unions conference,1,2.5
+ mr street leicester hm,1,2.5
+ trade firm board trade board,1,2.5
+ fund insurance superannuation pensions,1,2.5
+ statements scheme position hope,1,2.5
+ branch branches operatives general,1,2.5
+ cent food cost living increase,1,2.5
+ war russia russian peace,1,2.5
+ manufacturers repairers repairing machine,1,2.5
+ cost living cent living increase,1,2.5
+ russia league germany russian,1,2.5
+ arrears dividend funds balance,1,2.5
+ report reports inspectors complaints,1,2.5
+ union unions trade trade union,1,2.5
+ unemployment employers labour international labour,1,2.5
+ mr street poulton leicester,1,2.5
+ arbitration agreement defendant agreements,1,2.5
+ branch branches secretary operatives,1,2.5
+ war peace hope future,1,2.5
+ rates prices fund dividend,1,2.5
+ league federation league nations nations,1,2.5
+ man work wife week,1,2.5
+ union trade unions employers,1,2.5
+ th month day month latest,1,2.5
+ daily herald daily herald paper,1,2.5
+ repairing repairers department accident,1,2.5
+ union trade unions unemployment,1,2.5
+ mr hm street smith,1,2.5
+ men hope time rely,1,2.5
+ houses food housing land,1,2.5
+ firm members manufacturers firms,1,2.5
+ insurance superannuation pensions scheme,1,2.5
+ party labour party labour house,1,2.5
+ houses housing room rooms,1,2.5
+ th february month march,1,2.5
+ improvement slight worse slight improvement,1,2.5
+ operatives seamen operative discharged,1,2.5
+ operatives seamen ship service men,1,2.5
+ insurance benefit fund unemployment,1,2.5
+ trade bad improvement month,1,2.5
+ cost living cost prices rates,1,2.5
+ man work did speech,1,2.5
+ houses housing rent building,1,2.5
+ education school teachers schools,1,2.5
+ operatives war service officers,1,2.5
+ women girls womens females,1,2.5
+ letter general thanks general president,1,2.5
+ th week day month,1,2.5
+ russia russian german soviet,1,2.5
+ labour union trade employers,1,2.5
+ men rely correspondents laughter,1,2.5
+ conference branch resolution council,1,2.5
+ mr poulton hm smith,1,2.5
+ insurance superannuation fund pensions,1,2.5
+ arbitration insurance strike compensation,1,2.5
+ superannuation fund pensions benefit,1,2.5
+ operatives general district secretary,1,2.5
+ reports report inspectors inspection,1,2.5
+ union employers unemployment labour,1,2.5
+ conference party labour labour party,1,2.5
+ mr street london smith,1,2.5
+ industry war government policy,1,2.5
+ firm manufacturers federation firms,1,2.5
+ ireland scotland irish scottish,1,2.5
+ russia league federation league nations,1,2.5
+ rates cost living cost living,1,2.5
+ operatives service men service discharged,1,2.5
+ conference council mr resolution,1,2.5
+ trade firm manufacturers board,1,2.5
+ fund funds returns dividend,1,2.5
+ insurance superannuation pensions benefit,1,2.5
+ prices food rates price,1,2.5
+ street road street london london,1,2.5
+ employment short time short time,1,2.5
+ conference resolution council agreement,1,2.5
+ war government russia policy,1,2.5
+ cent cost living living cost,1,2.5
+ hm death females mr,1,2.5
+ women womens men womens branch,1,2.5
+ firm firms operative society,1,2.5
+ houses housing building rooms,1,2.5
+ arbitration defendant court board,1,2.5
+ unemployment employers wages employment,1,2.5
+ conference resolution chairman council,1,2.5
+ rates fund prices dividend,1,2.5
+ russia league russian league nations,1,2.5
+ operatives seamen service officers,1,2.5
+ agreement arbitration government agreements,1,2.5
+ war movement peace world,1,2.5
+ women womens girls labour,1,2.5
+ education branch operatives school,1,2.5
+ mr secretary poulton government,1,2.5
+ war peace future time,1,2.5
+ manufacturers industry trade board board,1,2.5
+ insurance holiday benefit superannuation,1,2.5
+ fund rates cost living cost,1,2.5
+ branch operatives branches officers,1,2.5
+ hm mr dead females,1,2.5
+ education school educational schools,1,2.5
+ cent year increase figures,1,2.5
+ street road london nearest,1,2.5
+ benefit fund pensions superannuation,1,2.5
+ members operatives membership seamen,1,2.5
+ cent cost living cost increase,1,2.5
+ arbitration defendant settlement court,1,2.5
+ branch branches central office office,1,2.5
+ women men womens girls,1,2.5
+ insurance pensions superannuation sick,1,2.5
+ report reports inspectors statements,1,2.5
+ man work business good,1,2.5
+ happy shall happy prominence thanks,1,2.5
+ insurance wages benefit superannuation,1,2.5
+ leicester street road london,1,2.5
+ operatives district members meeting,1,2.5
+ death sympathy mr bleakley,1,2.5
+ branch war government time,1,2.5
+ conference resolution council rule,1,2.5
+ fund half funds balance,1,2.5
+ arbitration defendant suspension court,1,2.5
+ members stamp membership union stamp,1,2.5
+ trade bad plymouth trade bad,1,2.5
+ conference members committee delegates,1,2.5
+ mr leicester london council,1,2.5
+ war government great peace,1,2.5
+ war policy government movement,1,2.5
+ firm firms factory manufacturers,1,2.5
+ london street leicester employment,1,2.5
+ health insurance tuberculosis treatment,1,2.5
+ agreement federation agreements league,1,2.5
+ branch members branches membership,1,2.5
+ firm leicester norwich employment,1,2.5
+ education educational teachers children,1,2.5
+ holiday hours day short,1,2.5
+ operatives men men rely rely,1,2.5
+ houses housing rooms room,1,2.5
+ improvement hope future better,1,2.5
+ suspended suspension work years,1,2.5
+ union labour conference unions,1,2.5
+ unemployment hours wages unemployed,1,2.5
+ mr hm richards poulton,1,2.5
+ leicester mr poulton smith,1,2.5
+ hm females mr dead,1,2.5
+ league germany federation league nations,1,2.5
+ conference resolution delegates council,1,2.5
+ rule delete line rates,1,2.5
+ members membership new members joined,1,2.5
+ union labour employers unemployment,1,2.5
+ conference branch delegates members,1,2.5
+ mr leicester firm street,1,2.5
+ war government nations industry,1,2.5
+ insurance sick benefit returns,1,2.5
+ men rely rely men errors creep,1,2.5
+ tuberculosis health medical treatment,1,2.5
+ food agricultural prices average,1,2.5
+ operatives seamen ship ex,1,2.5
+ happy shall happy prominence trust,1,2.5
+ bleakley sympathy death mr bleakley,1,2.5
+ holiday returns month th,1,2.5
+ arbitration agreement agreements settlement,1,2.5
+ street road london kettering,1,2.5
+ hm females dead tf,1,2.5
+ members membership organisers operative,1,2.5
+ branch branches secretary general secretary,1,2.5
+ education district teachers schools,1,2.5
+ poulton mr smith mr poulton,1,2.5
+ conference branch agreement committee,1,2.5
+ mr leicester london secretary,1,2.5
+ insurance fund benefit sick,1,2.5
+ government policy act people,1,2.5
+ operatives war russia russian,1,2.5
+ death bleakley happy shall happy,1,2.5
+ month th th month february,1,2.5
+ hours hour short hour day,1,2.5
+ labour conference union council,1,2.5
+ unemployment wages employers holiday,1,2.5
+ trade cent year rates,1,2.5
+ insurance fund pensions sick,1,2.5
+ war peace men hope,1,2.5
+ firm trade firms employment,1,2.5
+ miners industry manufacturers coal,1,2.5
+ death sympathy widow funeral,1,2.5
+ cent year increase compared,1,2.5
+ operatives seamen orders officers,1,2.5
+ trade bad rushden trade bad,1,2.5
+ males females total males females,1,2.5
+ happy shall happy prominence trust members,1,2.5
+ branch war education government,1,2.5
+ mr labour party labour party,1,2.5
+ firm firms manufacturers industry,1,2.5
+ houses housing living cost living,1,2.5
+ arbitration agreement agreements defendant,1,2.5
+ ireland irish britain great britain,1,2.5
+ work wants man business,1,2.5
+ labour union unemployment employers,1,2.5
+ mr leicester street smith,1,2.5
+ conference council rule delegates,1,2.5
+ man work week pay,1,2.5
+ herald daily daily herald herald daily,1,2.5
+ education teachers school educational,1,2.5
+ belgium france italy countries,1,2.5
+ union labour employers workers,1,2.5
+ conference council resolution delegates,1,2.5
+ mr hm leicester smith,1,2.5
+ trade industry trade board bad,1,2.5
+ insurance benefit fund pensions,1,2.5
+ war peace movement future,1,2.5
+ street leicester road kettering,1,2.5
+ agreement arbitration defendant agreements,1,2.5
+ mr poulton president smith,1,2.5
+ fund insurance superannuation funds,1,2.5
+ conference party labour party labour,1,2.5
+ cent increase year improvement,1,2.5
+ education school educational teachers,1,2.5
+ arbitration defendant board court,1,2.5
+ members membership president general president,1,2.5
+ street road london hall,1,2.5
+ insurance superannuation pensions health insurance,1,2.5
+ hm dead mr females,1,2.5
+ trade bad trade board board,1,2.5
+ members branch war government,1,2.5
+ ireland irish emigration countries,1,2.5
+ hm dead females buckle,1,2.5
+ convention scheme federation agreement,1,2.5
+ superannuation pensions fund sick,1,2.5
+ hours holiday hour day,1,2.5
+ boot shoe trade boot shoe,1,2.5
+ holiday th month th month,1,2.5
+ prices food price sugar,1,2.5
+ street road leicester kettering,1,2.5
+ employment unemployed short time short,1,2.5
+ cost living rates cost prices,1,2.5
+ jubilee letter meeting wish,1,2.5
+ union conference labour unions,1,2.5
+ rates prices statements scheme,1,2.5
+ branch members branches district,1,2.5
+ miners food industry coal,1,2.5
+ superannuation benefit pensions sick,1,2.5
+ firm firms manufacturers inspectors,1,2.5
+ operatives short time short suspension,1,2.5
+ arbitration defendant court case,1,2.5
+ insurance health health insurance compensation,1,2.5
+ death sympathy died funeral,1,2.5
+ trade firm firms industry,1,2.5
+ labour party labour party house,1,2.5
+ women shoe boot leather,1,2.5
+ firm industry manufacturers firms,1,2.5
+ war government russia nations,1,2.5
+ leicester street london road,1,2.5
+ cent cost living living increase,1,2.5
+ rely correspondents men facts,1,2.5
+ members membership organisers happy,1,2.5
+ holiday th holidays february,1,2.5
+ street london road street london,1,2.5
+ fund insurance superannuation compensation,1,2.5
+ operatives members meeting office,1,2.5
+ houses living cost living housing,1,2.5
+ education educational district teachers,1,2.5
+ thanks visit president pleased,1,2.5
+ london street road metro,1,2.5
+ cent rates increase figures,1,2.5
+ food prices war sugar,1,2.5
+ government war russia policy,1,2.5
+ firm manufacturers industry firms,1,2.5
+ insurance benefit superannuation pensions,1,2.5
+ party labour labour party mr,1,2.5
+ death sympathy regret widow,1,2.5
+ street leicester london kettering,1,2.5
+ trade rates prices bad,1,2.5
+ cent year pairs increase,1,2.5
+ holiday th holidays april,1,2.5
+ death sympathy bleakley family,1,2.5
+ conference labour union council,1,2.5
+ unemployment wages employment wage,1,2.5
+ cost living prices cost living,1,2.5
+ russia league russian germany,1,2.5
+ death mr sympathy bleakley,1,2.5
+ superannuation pensions fund benefit,1,2.5
+ trade bad trade bad improvement,1,2.5
+ report central office central letter,1,2.5
+ members branch operatives district,1,2.5
+ union unions trade employers,1,2.5
+ war government nations policy,1,2.5
+ conference labour party labour party,1,2.5
+ trade firm trade board bad,1,2.5
+ holiday fund superannuation pensions,1,2.5
+ arbitration agreement strike agreements,1,2.5
+ branch members operatives branches,1,2.5
+ hours holiday week hour,1,2.5
+ mr poulton smith death,1,2.5
+ conference council mr party,1,2.5
+ union unemployment employers labour,1,2.5
+ members war policy meeting,1,2.5
+ trade firm manufacturers firms,1,2.5
+ branch operatives branches office,1,2.5
+ firm manufacturers firms trade board,1,2.5
+ rates industry prices trade,1,2.5
+ holiday day holidays th,1,2.5
+ houses district housing districts,1,2.5
+ death sympathy died family,1,2.5
+ cent year compared increase,1,2.5
+ tuberculosis treatment health disease,1,2.5
+ russia russian movement socialist,1,2.5
+ union unemployment workers labour,1,2.5
+ mr party labour labour party,1,2.5
+ conference council agreement delegates,1,2.5
+ war government movement policy,1,2.5
+ street london mr hm,1,2.5
+ operatives discharged service service men,1,2.5
+ statements errors creep errors creep,1,2.5
+ returns central office central office,1,2.5
+ arbitration defendant report reports,1,2.5
+ war league nations russia,1,2.5
+ branch branches office central office,1,2.5
+ district houses districts housing,1,2.5
+ baldwin speech speeches mr baldwin,1,2.5
+ improvement slight whitley year,1,2.5
+ labour union employers unemployment,1,2.5
+ conference delegates council arbitration,1,2.5
+ mr street london leicester,1,2.5
+ labour union workers women,1,2.5
+ fund superannuation rates pensions,1,2.5
+ firm trade manufacturers trade board,1,2.5
+ branch branches operatives secretary,1,2.5
+ trade employment bad improvement,1,2.5
+ holiday hours day hour,1,2.5
+ members membership happy shall happy,1,2.5
+ branch branches returns office,1,2.5
+ houses housing district districts,1,2.5
+ war peace movement socialist,1,2.5
+ cost living cost living cent,1,2.5
+ holiday th month holidays,1,2.5
+ members happy membership shall happy,1,2.5
+ education educational school teachers,1,2.5
+ war government policy land,1,2.5
+ conference council committee delegates,1,2.5
+ mr leicester secretary general,1,2.5
+ war government industry men,1,2.5
+ insurance fund benefit superannuation,1,2.5
+ miners firm coal firms,1,2.5
+ members meeting membership organisers,1,2.5
+ operatives seamen service operative,1,2.5
+ cent increase compared improvement,1,2.5
+ work man week business,1,2.5
+ th month week day,1,2.5
+ health reports inspectors report,1,2.5
+ bleakley death sympathy mr bleakley,1,2.5
+ time regret short time short,1,2.5
+ trade bad chesham plymouth,1,2.5
+ conference resolution delegates chairman,1,2.5
+ russia russian german geneva,1,2.5
+ women womens girls rely,1,2.5
+ death sympathy funeral regret,1,2.5
+ sewn machine piecework hand,1,2.5
+ union unions unemployment trade,1,2.5
+ women mr labour street,1,2.5
+ conference members arbitration branch,1,2.5
+ wages insurance rates minimum,1,2.5
+ government policy movement ballot,1,2.5
+ war agreement nations russia,1,2.5
+ trade trade board food board,1,2.5
+ death sympathy regret loss,1,2.5
+ union unions unemployment labour,1,2.5
