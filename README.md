@@ -54,17 +54,17 @@ This sweet spot was derived using a quadratic fit. Models beyond this range ofte
 ## 📉 Example Outputs
 
 ### 🔹 Distribution of Error Size
-![Error Size Distribution](BERTopic_Stability/output/error_size_distribution.png)
+![Error Size Distribution](output/error_size_distribution.png)
 
 > Shows the distribution of `Error_Size` across 211 model runs. Most cluster between 50,000–55,000.
 
 ### 🔹 Gini Score vs Sentence Coverage
-![Gini Score vs Sentence Coverage](BERTopic_Stability/output/gini_score_vs_sentence_coverage.png)
+![Gini Score vs Sentence Coverage](output/gini_score_vs_sentence_coverage.png)
 
 > A visualisation of the trade-off between topic balance (Gini) and coverage (% of corpus used).
 
 ### 🔹 Sweet Spot Detection
-![Sweet Spot Detection](BERTopic_Stability/output/sweet_spot_detection.png)
+![Sweet Spot Detection](output/sweet_spot_detection.png)
 
 > A quadratic regression identifies the optimal `Error_Size` range for maximising `Keyword_Freq_Score`.
 
