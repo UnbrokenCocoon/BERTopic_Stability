@@ -9,7 +9,7 @@ It provides:
 - A structured approach to **comparing and evaluating BERTopic model outputs**  
 - A guide to understanding the **performance trade-offs** when tuning model parameters  
 
-All notebooks are **Google Colab–ready** to maximise accessibility — no installation required.
+All notebooks are **Google Colab–ready** to maximise accessibility — no installation required
 
 ---
 
