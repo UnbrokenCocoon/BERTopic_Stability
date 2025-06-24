@@ -19,8 +19,8 @@ All notebooks are **Google Colab–ready** to maximise accessibility — no inst
 |--------------------------------|-----------|-----------------------------------------------------------------------------|--------|
 | `Sentence_transformer_cleaner.ipynb` | Notebook | Prepares text using Sentence Transformers with token-based chunking         | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1oCK_2MjZkMNMnyh-PgTCH8z5yrVRUGkF?usp=sharing) |
 | `Stable_Bertopic.ipynb`       | Notebook  | Runs BERTopic across multiple parameter settings and logs metrics           | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Jn-AjlzDh5aY2OBXh0BAuXGKl163-Zjq?usp=sharing) |
-| `Bertopic_Stats.ipynb`        | Notebook  | Compares model outputs, visualises trade-offs, detects optimal error thresholds | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1pjR402nxkRS9657hZsQdIqcSFCLOGiHo?usp=sharing) |
-| `Bertopic_Stats_2.ipynb`      | Notebook  | Refines threshold estimation and statistical selection of top model runs    | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1lGswsYih7h57R7Ku05aksJlH-jCI0405?usp=sharing) |
+| `Bertopic_Stats.ipynb`        | Notebook  | Compares model outputs, visualises trade-offs, detects optimal error thresholds - large corpus | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1pjR402nxkRS9657hZsQdIqcSFCLOGiHo?usp=sharing) |
+| `Bertopic_Stats_2.ipynb`      | Notebook  | Refines threshold estimation and statistical selection of top model runs - small corpus   | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1lGswsYih7h57R7Ku05aksJlH-jCI0405?usp=sharing) |
 | `sample_similarity_pairs.py`  | Script    | Generates cosine similarity labels from BGE embeddings for distillation     | — |
 
 ---
