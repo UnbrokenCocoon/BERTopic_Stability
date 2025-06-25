@@ -15,21 +15,34 @@ with open(os.path.join(data_dir, 'bs_sen.pkl'), 'rb') as f:
 model_id = 'BAAI/bge-large-en-v1.5'
 tokenizer = AutoTokenizer.from_pretrained(model_id)
 model = AutoModel.from_pretrained(model_id)
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+model.to(device).eval()        # move once and set to eval mode
 
+
+def get_bge_embeddings(sentences, batch_size=32):
+    all_embeddings = []
 
     for i in range(0, len(sentences), batch_size):
         batch = sentences[i:i + batch_size]
-        encoded = tokenizer(batch, padding=True, truncation=True, return_tensors='pt', max_length=512)
-        encoded = {k: v.cuda() for k, v in encoded.items()}  # Move inputs to GPU
+
+        encoded = tokenizer(
+            batch,
+            padding=True,
+            truncation=True,
+            return_tensors="pt",
+            max_length=512,
+        )
+        encoded = {k: v.to(device) for k, v in encoded.items()}  # inputs → same device
 
         with torch.no_grad():
             output = model(**encoded)
-            embeddings = output.last_hidden_state[:, 0]  # CLS pooling
-            embeddings = F.normalize(embeddings, p=2, dim=1)  # L2 normalise
+            emb = output.last_hidden_state[:, 0]          # CLS
+            emb = torch.nn.functional.normalize(emb, p=2, dim=1)
 
-        all_embeddings.append(embeddings.cpu())
+        all_embeddings.append(emb.cpu())                  # store on CPU
 
     return torch.cat(all_embeddings, dim=0)
+
 
 bge_embeddings = get_bge_embeddings(sentences, batch_size=16)
 print("Shape:", bge_embeddings.shape)  # (N, 1024)
