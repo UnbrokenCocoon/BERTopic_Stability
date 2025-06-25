@@ -5,14 +5,17 @@ import random
 import pandas as pd
 from sklearn.metrics.pairwise import cosine_similarity
 from tqdm import tqdm
+from transformers import AutoTokenizer, AutoModel
 
 data_dir = r'path/to/your/data/folder'
 
 with open(os.path.join(data_dir, 'bs_sen.pkl'), 'rb') as f:
     sentences = pickle.load(f)
-# compute embeddings
-def get_bge_embeddings(sentences, batch_size=32):
-    all_embeddings = []
+# Load model
+model_id = 'BAAI/bge-large-en-v1.5'
+tokenizer = AutoTokenizer.from_pretrained(model_id)
+model = AutoModel.from_pretrained(model_id)
+
 
     for i in range(0, len(sentences), batch_size):
         batch = sentences[i:i + batch_size]
