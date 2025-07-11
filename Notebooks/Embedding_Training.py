@@ -2,8 +2,19 @@
 import pandas as pd
 from sentence_transformers import SentenceTransformer, InputExample
 from sentence_transformers.evaluation import EmbeddingSimilarityEvaluator
+from transformers import AutoTokenizer, AutoModel
+import torch
+import torch.nn.functional as F
 
+# Load the BGE model and tokenizer (replace with actual model name)
+model_name = "BAAI/bge-base-en"  # or another BGE variant like bge-large-en
 
+tokenizer = AutoTokenizer.from_pretrained(model_name)
+model = AutoModel.from_pretrained(model_name)
+
+# Move model to GPU
+device = "cuda" if torch.cuda.is_available() else "cpu"
+model.to(device)
 
 def get_bge_embeddings(sentences, batch_size=32):
     all_embeddings = []
