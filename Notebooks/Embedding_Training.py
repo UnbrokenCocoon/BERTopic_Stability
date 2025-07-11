@@ -15,41 +15,43 @@ model = AutoModel.from_pretrained(model_name)
 # Move model to GPU
 device = "cuda" if torch.cuda.is_available() else "cpu"
 model.to(device)
+import torch
+import torch.nn.functional as F
+from transformers import AutoTokenizer, AutoModel
+from tqdm import tqdm  # Import tqdm for progress bar
 
-def get_bge_embeddings(sentences, batch_size=32):
+# Load model and tokenizer
+tokenizer = AutoTokenizer.from_pretrained('BAAI/bge-base-en')
+model = AutoModel.from_pretrained('BAAI/bge-base-en')
+model.cuda()  # Move model to GPU
+model.eval()  # Set model to evaluation mode
+
+def get_bge_embeddings(sentences, batch_size=16):
     all_embeddings = []
-
-    for i in range(0, len(sentences), batch_size):
+    
+    # Wrap the loop with tqdm to show progress
+    for i in tqdm(range(0, len(sentences), batch_size), desc="Generating Embeddings"):
         batch = sentences[i:i + batch_size]
-        encoded = tokenizer(batch, padding=True, truncation=True, return_tensors='pt', max_length=512)
+        encoded = tokenizer(
+            batch,
+            padding=True,
+            truncation=True,
+            return_tensors='pt',
+            max_length=512
+        )
         encoded = {k: v.cuda() for k, v in encoded.items()}  # Move inputs to GPU
 
         with torch.no_grad():
             output = model(**encoded)
-            embeddings = output.last_hidden_state[:, 0]  # CLS pooling
-            embeddings = F.normalize(embeddings, p=2, dim=1)  # L2 normalise
+            embeddings = output.last_hidden_state[:, 0]  # CLS token pooling
+            embeddings = F.normalize(embeddings, p=2, dim=1)  # L2 normalize
 
-        all_embeddings.append(embeddings.cpu())
-
-    return torch.cat(all_embeddings, dim=0)
-
-def get_bge_embeddings(sentences, batch_size=32):
-    for i in range(0, len(sentences), batch_size):
-        batch = sentences[i:i + batch_size]
-        encoded = tokenizer(batch, padding=True, truncation=True, return_tensors='pt', max_length=512)
-        encoded = {k: v.cuda() for k, v in encoded.items()}  # Move inputs to GPU
-
-        with torch.no_grad():
-            output = model(**encoded)
-            embeddings = output.last_hidden_state[:, 0]  # CLS pooling
-            embeddings = F.normalize(embeddings, p=2, dim=1)  # L2 normalise
-
-        all_embeddings.append(embeddings.cpu())
+        all_embeddings.append(embeddings.cpu())  # Move embeddings back to CPU
 
     return torch.cat(all_embeddings, dim=0)
 
 bge_embeddings = get_bge_embeddings(sentences, batch_size=16)
-print("Shape:", bge_embeddings.shape)  # (N, 1024)
+print("Shape:", bge_embeddings.shape)
 
 
 import pandas as pd
