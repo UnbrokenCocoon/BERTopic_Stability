@@ -84,6 +84,7 @@ This sweet spot was derived using a quadratic fit. Models beyond this range ofte
 ## Research Output
 
 Read the [paper](https://arxiv.org/abs/2507.23364) summarising this projected
+```bibtex
 @misc{compton2025holistic,
     title={Holistic Evaluations of Topic Models},
     author={Thomas Compton},
