@@ -81,6 +81,17 @@ This sweet spot was derived using a quadratic fit. Models beyond this range ofte
 - How to select high-quality models using a mix of lexical and structural metrics
 
 ---
+## Research Output
+
+Read the [paper](https://arxiv.org/abs/2507.23364) summarising this projected
+@misc{compton2025holistic,
+    title={Holistic Evaluations of Topic Models},
+    author={Thomas Compton},
+    year={2025},
+    eprint={2507.23364},
+    archivePrefix={arXiv},
+    primaryClass={cs.IR}
+}
 
 ## 📚 Citation
 
