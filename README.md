@@ -93,7 +93,7 @@ Read the [paper](https://arxiv.org/abs/2507.23364) summarising this projected
     archivePrefix={arXiv},
     primaryClass={cs.IR}
 }
-
+```
 ## 📚 Citation
 
 This project builds on [BERTopic](https://github.com/MaartenGr/BERTopic), developed by **Maarten Grootendorst**.
@@ -110,3 +110,4 @@ If you use BERTopic in your work, please cite:
   publisher    = {GitHub},
   howpublished = {\url{https://github.com/MaartenGr/BERTopic}}
 }
+```
