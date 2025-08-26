@@ -73,6 +73,16 @@ This sweet spot was derived using a quadratic fit. Models beyond this range ofte
 
 ---
 
+### Embedding Model Comparisons
+
+| Model                     | Outliers | Topics (n) | N-gram Score | Gini Score | Coherence (C_V) | Silhouette (Avg) | Time (min) |
+|---------------------------|----------|------------|--------------|------------|-----------------|------------------|------------|
+| all-MiniLM-L6-v2          | 60,277   | 520        | 0.16         | 0.529      | 0.060           | 0.000            | 10.96      |
+| all-mpnet-base-v2         | 62,729   | 584        | 0.16         | 0.516      | 0.090           | 0.000            | 10.22      |
+| distilroberta-base        | 54,131   | 922        | 0.19         | 0.391      | 0.060           | 0.000            | 11.63      |
+| bge-small-en-v1.5         | 59,266   | 59         | 0.13         | 0.867      | NaN             | -0.080           | 10.91      |
+| mpnet-distilled           | 63,041   | 384        | 0.16         | 0.706      | 0.260           | -0.040           | 10.84      |
+
 ## 💡 What You'll Learn
 
 - How to prepare and embed text for BERTopic  
